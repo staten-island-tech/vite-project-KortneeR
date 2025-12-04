@@ -73,3 +73,8 @@ const songs = [
     
 ]
 
+function inject(song) {
+  document.querySelector('.container').insertAdjacentHTML(
+    
+  );
+}
