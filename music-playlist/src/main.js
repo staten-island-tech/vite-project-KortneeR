@@ -75,11 +75,11 @@ const songs = [
 
 function inject(song) {
   document.querySelector('.container').insertAdjacentHTML(
-    "afterbegin"
+    "afterbegin",
     `<div class="card">
-    <h3 class="song-name":>${song.name}</h3>
-    <h4>${song.artist}</h4>
-    <img src = ${song.image} class = "song-image">
+      <h3 class="song-name">${song.name}</h3>
+      <h4>${song.artist}</h4>
+      <img src=${song.image} alt=${song.alt} class="song-image">
     </div>`
   );
 }
