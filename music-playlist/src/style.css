@@ -18,7 +18,7 @@ body,
 }
 
 .card{
-
+border: 5px solid var(--dark-purple)
 }
 
 .song-name{
