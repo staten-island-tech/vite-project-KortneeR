@@ -78,7 +78,7 @@ function inject(song) {
     "afterbegin",
     `<div class="card">
       <h3 class="song-name">${song.name}</h3>
-      <h4>${song.artist}</h4>
+      <h4 class="song-artist">${song.artist}</h4>
       <img src=${song.image} alt=${song.alt} class="song-image">
     </div>`
   );

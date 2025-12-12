@@ -4,6 +4,7 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 :root{
@@ -18,13 +19,33 @@ body,
 }
 
 .card{
-border: 5px solid var(--dark-purple)
+  border: 5px solid var(--dark-purple);
+  border-radius: 20px;
+  border-width: 5px;
+  margin: 10px;
+
+}
+
+.title{
+  text-align: center;
+  font-size: 50px;
+}
+
+.kortnee{
+  text-align: center;
 }
 
 .song-name{
-
+  text-align: center;
+  font-size: 25px;
 }
 
+.song-artist{
+  text-align: center;
+}
 .song-image{
-
+  width:150px;
+  height:auto;
 }
+
+
